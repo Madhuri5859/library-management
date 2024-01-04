@@ -1,7 +1,10 @@
-public class HelloWorld{
-  public static void main(String[] args){
-    system.out.println("Hello,World);
-    system.out.pritln("Continuous integration jenkins);
-    system.out.println("Maven Installation process");
-  }
-}
+class FactorialExample{  
+ public static void main(String args[]){  
+  int i,fact=1;  
+  int number=5;//It is the number to calculate factorial    
+  for(i=1;i<=number;i++){    
+      fact=fact*i;    
+  }    
+  System.out.println("Factorial of "+number+" is: "+fact);    
+ }  
+}  
